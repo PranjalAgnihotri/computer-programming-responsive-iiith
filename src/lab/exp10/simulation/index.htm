@@ -24,18 +24,25 @@
 				<div class = 'instructionText' >Initialize the values</div>
 				<div class = 'inputFieldHolder'>
 			        <div class = 'inputValueText' >a:&nbsp;</div>
-			        <input class = 'inputValueField' type = 'text' value = '2' id = 'a' disabled >
+			        <input class = 'inputValueField' type = 'number' placeholder = '0' id = 'a'  >
 			        <div class = 'inputValueText' >b:&nbsp;</div>
-			        <input class = 'inputValueField' type = 'text' value = '5' id = 'b' disabled >
+			        <input class = 'inputValueField' type = 'number' placeholder= '0' id = 'b' >
 		        </div>
 		        <div class = 'inputFieldHolder'>
 			        <div class = 'inputValueText' >c:&nbsp;</div>
-			        <input class = 'inputValueField' type = 'text'	value = '10' id = 'c' disabled >
+			        <input class = 'inputValueField' type = 'number'	placeholder = '0' id = 'c'  >
 			        <div class = 'inputValueText' >d:&nbsp;</div>
-			        <input class = 'inputValueField' type = 'text'	value = '11' id = 'd' disabled >
+			        <input class = 'inputValueField' type = 'number'	placeholder = '0' id = 'd'  >
 		        </div>
 		        <button class = 'button saveButton hide' id = 'buttonSave' >Save</button>
-		        <button class = 'button editButton' id = 'buttonEdit' >Edit</button>
+		        <button class = 'button editButton' id = 'buttonEdit' >Edit
+				<script>
+				function valueadd()
+				{
+				document.getElementById("InputValueField").value;
+				}
+				</script>
+				</button>
 		        <select class = 'button loopList' id = 'arithmaticExpressions' >
 		     		<option> a + b - c </option>
 		            <option> a + b / c </option>
